@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nme">
+            Salwa <span class="lightcolor">Ansari </span>
+        </div>
+        <div class="hamburger" id="hamburger" onClick=toogle()>&#9776;</div>
+        <ul id="state">
+            <li><b><a href="#Home" onclick="animation()">Home</a></b></li>
+            <li><b><a href="#About" onclick="animation()">About</a></b></li>
+            <li><b><a href="#Qualification" onclick="animation()">Qualification</a></b></li>
+            <li><b><a href="#Skills" onclick="animation()">Skills</a></b></li>
+            <li><b><a href="#Projects" onclick="animation()">Projects</a></b></li>
+            <li><b><a href="#Contact" onclick="animation()">Contact Me</a></b></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Home">
+            <div class="intro">
+                <h1 class="start">
+                    Hi, I'm
+                    <span class="lightcolor" id="text">
+                        
+                    </span>
+                </h1>
+                <br />
+                <h1>
+                    A Passionate <span class="lightcolor">Web Designer</span> &amp;
+                    <span class="lightcolor"> a versatile programmer</span>
+                </h1>
+                <br />
+                <p class="context">
+                    <b>
+                        With a flair for crafting visually stunning and user-centric web
+                        designs,
+                        I bring your digital vision to life.Let’s create something
+                        amazing together!
+                    </b>
+                </p>
+                <button class="cvbtn">
+                    <a href="CV.pdf" download="My_CV.pdf">
+                        Download CV
+                    </a>
+                </button>
+            </div>
+            <div class="image">
+                <img src="images/pic.webp" alt="" />
+            </div>
+        </section>
+        <hr />
+        <section id="About">
+            <div class="about">
+                <div class="aboutimage">
+                    <img src="images/about.jpg" alt="" />
+                </div>
+                <div class="aboutText">
+                    <div class="nme center">
+                        About <span class="lightcolor">Me </span>
+                    </div>
+                    <p>
+                        My journey into the world of technology has been driven by an
+                        insatiable curiosity and a desire to create. I have honed my skills in
+                        Java, C++, Data Structures, HTML, CSS, DBMS, Assembly Language, and
+                        JavaScript, allowing me to build robust applications and design
+                        visually stunning, user-centric web experiences. My expertise spans
+                        from crafting efficient algorithms to developing scalable software
+                        solutions, always with a focus on bringing digital visions to life.
+                        Let's create something amazing together!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="Qualification">
+            <div class="about">
+                <div class="aboutText leftAlign">
+                    <p></p>
+                    <div class="nme center">
+                        My <span class="lightcolor">Qualification </span>
+                    </div>
+                    <li>
+                        Bachelor in Computer Science (BSCS) Sukkur IBA University, Sukkur
+                    </li>
+                    <br />
+                    <li>
+                        Intermediate (Pre-Medical) Government Girls Degree College, Sukkur
+                    </li>
+                    <br />
+                    <li>Matriculation (Science) Arqam Public High School, Sukkur</li>
+                    <br />
+                    <p />
+                </div>
+                <div class="qualificationimage">
+                    <img src="images/qualification.jpg" alt="" />
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="Skills">
+            <div class="skillimage">
+                <img src="images/skills.jpg" alt="" />
+            </div>
+            <div class="skillsbar">
+                <div class="nme center">
+                    My <span class="lightcolor">Skills </span>
+                </div>
+                HTML
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%;">
+                        100%
+                    </div>
+                </div>
+                CSS
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%;">
+                        100%
+                    </div>
+                </div>
+                JavaScript
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%;">
+                        70%
+                    </div>
+                </div>
+                ReactJS
+                <div class="skill-bar">
+                    <div class="skill-level"style="width: 70%;">
+                        40%
+                    </div>
+                </div>
+                NodeJs
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 30%;">
+                        30%
+                    </div>
+                </div>
+                Java
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%;">
+                        100%
+                    </div>
+                </div>
+                Python
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;">
+                        80%
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="Projects">
+            <div class="nme center underline">
+                My <span class="lightcolor">Projects </span>
+            </div>
+            <div class="projectList">
+                <div class="p_image">
+                    <a href="https://github.com/salwaaliakbar/self-hotel-boooking.git" target="_blank">
+                        <img src="images/hotel.avif" alt="Hotel" />
+                        <div class="p_name center">
+                            Hotel <span class="lightcolor">Booking</span>
+                        </div>
+                        <button class="open-code-btn">Open Code</button>
+                    </a>
+                </div>
+                <div class="p_image">
+                    <img src="images/shopping.jpg" />
+                    <div class="p_name center">
+                        Online <span class="lightcolor">Shopping </span>
+                    </div>
+                    <button class="open-code-btn">Open Code</button>
+                </div>
+                <div class="p_image">
+                    <a href="https://github.com/salwaaliakbar/Cafe-serenity.git" target="_blank">
+                        <img src="images/hotel.avif" alt="Hotel" />
+                        <div class="p_name center">
+                            Cafe <span class="lightcolor">Serenity</span>
+                        </div>
+                        <button class="open-code-btn">Open Code</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section id="Contact">
+            <div class="contact">
+                <div class="borderdark">
+                    <div class="nme center">
+                        Contact <span class="lightcolor">Me </span>
+                    </div>
+                    <form id="Form">
+                        <input type="text" id="full" placeholder="Full Name" required="" />
+                        <br />
+                        <input type="text" id="phone" placeholder="Phone No" required="" />
+                        <br />
+                        <input type="email" id="email" placeholder="Email" required="" />
+                        <br />
+                        <textarea id="msg" placeholder="Write your Message"></textarea>
+                        <br />
+                        <button type="submit" class="cvbtn color">
+                            Sent Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footerbar">
+        <div class="left">
+            <img src="images/s_icon.png" alt="" />
+            <br />
+            <br />
+            <p style="font-style: italic;">
+                Crafting digital experiences with passion
+                <br /> and precision.
+            </p>
+        </div>
+        <div class="quickLink">
+            <div class="links">
+                Quick <span class="lightcolor">Link </span>
+            </div>
+            <br />
+            <li><b><a href="#Home" onclick="animation()">Home</a></b></li>
+            <li><b><a href="#About" onclick="animation()">About</a></b></li>
+            <li><b><a href="#Qualification" onclick="animation()">Qualification</a></b></li>
+            <li><b><a href="#Skills" onclick="animation()">Skills</a></b></li>
+            <li><b><a href="#Projects" onclick="animation()">Projects</a></b></li>
+            <li><b><a href="#Contact" onclick="animation()">Contact Me</a></b></li>
+        </div>
+        <div class="contactInfo">
+            <div class="links">
+                Contact <span class="lightcolor">Info </span>
+            </div>
+            <br />
+            <img class="image" src="images/phone.avif" alt="" /> +92 337126809
+            <br />
+            <br />
+            <img class="image" src="images/mail.webp" alt="" /> salwaaliakbar22@gmail.com
+            <br />
+            <br />
+            <img class="icons" src="images/twitter.png" alt="" />
+            <img class="icons" src="images/fb.png" alt="" />
+            <img class="icons" src="images/youtube.jpg" alt="" />
+            <a href="https://www.linkedin.com/in/salwa-ali-akbar-b55404240/" target="_blank">
+                <img src="images/linkdlen.jpg" alt="LinkedIn" class="phone" />
+            </a>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
