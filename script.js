@@ -2,10 +2,12 @@
 let isopen = true;
 const toogle = () => {
     if (isopen) {
-        document.getElementById("state").style.display = "flex";
+        document.querySelector(".state").classList.add("active")
+        document.querySelector(".state").classList.remove("inactive")
     }
     else {
-        document.getElementById("state").style.display = "none";
+        document.querySelector(".state").classList.add("inactive")
+        document.querySelector(".state").classList.remove("active")
     }
     isopen = !isopen;
 }
@@ -31,7 +33,8 @@ const TypeWriter = () => {
 }
 TypeWriter();
 const animation = () => {
-    // document.getElementById("state").style.display = "none";
+     document.querySelector(".state").classList.add("inactive")
+    isopen=!isopen
     document.querySelector(".image").classList.add("rightanimation")
     document.querySelector(".aboutimage").classList.add("leftanimation")
     document.querySelector(".qualificationimage").classList.add("rightanimation")

@@ -67,7 +67,7 @@ nav ul li a:hover {
     border-bottom: 3px solid #e4c2d4;
 }
 
-#state{
+.state{
     display: flex;
 }
 
@@ -518,7 +518,7 @@ html {
 
 
 @media (max-width: 1160px) {
-    #state{
+    .state{
         display: none;
     }
     ul {
@@ -584,6 +584,12 @@ html {
 
     .hamburger {
         display: block;
+    }
+    .active{
+        display: flex;
+    }
+    .inactive{
+        display: none;
     }
 
 }
