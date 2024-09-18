@@ -31,6 +31,7 @@ const TypeWriter = () => {
 }
 TypeWriter();
 const animation = () => {
+    // document.getElementById("state").style.display = "none";
     document.querySelector(".image").classList.add("rightanimation")
     document.querySelector(".aboutimage").classList.add("leftanimation")
     document.querySelector(".qualificationimage").classList.add("rightanimation")
